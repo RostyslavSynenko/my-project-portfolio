@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RS Portfolio</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>RSynenko</h1>
+            <p>Leader in site creation</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about-me">ABOUT</a></li>
+                <li><a href="#my-projects">MY PROJECTS</a></li>
+                <li><a href="#contact-me">CONTACT ME</a></li>
+                <li><a href="#links">LINKS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Make your dreams come true.</h2>
+            <img style="width: 1340px; height: 750px;" src="img/start-page-img.png" alt="Start Page Img">
+            <a href="#about-me"><img style="width: 50px; height: 50px;" src="img/down.svg" alt="button-down"></a>
+        </section>
+        <section id="about-me">
+            <h2>About me</h2>
+            <hr>
+            <img src="img/my-photo.png" alt="My photo">
+            <p>
+                Let me introduce myself. My name is Rostyslav. I am twenty-six. 
+                I am a self-employed entrepreneur. I am a prospective front-end developer. 
+                I like this profession, that’s why I study with pleasure.
+                <br><br>
+                phone: +380967146518<br>
+                email: rostyslav.synenko@gmail.com
+            </p>
+        </section>
+        <section id="my-projects">
+            <h2>My projects</h2>
+            <hr>
+            <div>
+                <figure>
+                    <a href="https://www.spacex.com/"><img src="img/spacex-projects.jpg" alt="SpaceX"></a>
+                    <figcaption><b>Space Exploration Technologies Corp.</b><br>
+                    doing business as SpaceX, is a private American aerospace manufacturer and space transportation services 
+                    company headquartered in Hawthorne, California.</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://www.tesla.com/"><img src="img/tesla-projects.png" alt="Tesla Motors"></a>
+                    <figcaption><b>Tesla, Inc. (formerly Tesla Motors, Inc.)</b><br>
+                    is an American automotive and energy company based in Palo Alto, California. The company specializes in electric 
+                    car manufacturing and, through its SolarCity subsidiary, solar panel manufacturing.</figcaption>
+                </figure>
+                <figure>
+                    <a href="https://www.facebook.com/"><img src="img/facebook-projects.jpg" alt="Facebook"></a>
+                    <figcaption><b>Facebook.com</b><br>
+                    is an American online social media and social networking service 
+                    company based in Menlo Park, California. </figcaption>
+                </figure>
+            </div>
+            <section id="contact-me">
+                <h2>Contact me</h2>
+                <hr>
+                <img style="width: 1340px; height: 750px;" src="img/contact-me.jpg" alt="contact-me">
+                <form method="GET" action="https://formspree.io/rostyslav.synenko@gmail.com">
+                    <p>Tell me your story...</p>
+                    <input type="text" name='first-name' placeholder="Name*" required><br>
+                    <input type="email" name="email" placeholder="Email*" required><br>
+                    <input type="text" name='subject' placeholder="Subject"><br>
+                    <input type="tel" name="phone" placeholder="Phone number"><br>
+                    <textarea rows="10" cols="70" name="message" placeholder="Your message here..."></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
