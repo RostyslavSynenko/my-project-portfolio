@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Annie+Use+Your+Telescope|Lato&display=swap');
 
 body {
     max-width: 980px;
@@ -44,7 +44,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    background-color: RGBA(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 header nav ul li a {
@@ -52,6 +52,30 @@ header nav ul li a {
     color: #c0c0c0;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.start-page {
+    background-image: url(../img/start-page-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-page h2 {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 0 5px;
+}
+
+.start-page .down-button {
+    align-self: flex-end;
+    
 }
 
 @media (min-width: 500px) {
@@ -65,6 +89,10 @@ header nav ul li a {
         border-bottom: none;
         border-top: none;
         padding: 5px;
+    }
+    
+    .start-page h2 {
+        font-size: 35px;
     }
 }
 
@@ -88,6 +116,11 @@ header nav ul li a {
     
     header nav ul li {
         margin-left: 5%;
+    }
+    
+    .start-page h2 {
+        font-size: 60px;
+        margin-bottom: 20%;
     }
 }
 
