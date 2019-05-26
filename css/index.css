@@ -79,10 +79,15 @@ main .start-page .down-button {
     
 }
 
+main .about-me {
+    background-color: rgba(52, 44, 44, .1);
+}
+
 main .about-me h2 {
     font-family: 'Lato', sans-serif;
-    margin-bottom: 0;
-    margin-left: 10px;
+    margin: 0 0 0 10px;
+    padding-top: 10px;
+    
 }
 
 main .about-me hr {
@@ -90,7 +95,10 @@ main .about-me hr {
 }
 
 main .about-me img {
-    width: 100%;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 main .about-me div .briefly-about-me,
@@ -133,6 +141,10 @@ main .about-me div h3 {
     main .start-page h2 {
         font-size: 35px;
     }
+    
+    main .about-me p {
+        margin: 0 10%;
+    }
 }
 
 @media (min-width: 750px) {
@@ -164,6 +176,23 @@ main .about-me div h3 {
     main .start-page h2 {
         font-size: 60px;
         margin-bottom: 20%;
+    }
+    
+    main .about-me .container-photo-about {
+        display: flex;
+        justify-content: around;
+    }
+    
+    main .about-me .container-photo-about img {
+        margin: 0 10px 10px 10px;
+    }
+    
+    main .about-me .container-photo-about div .briefly-about-me {
+        font-size: 20px;
+    }
+    
+    main .about-me .container-photo-about div h3 {
+        margin-top: 60%;
     }
 }
 
