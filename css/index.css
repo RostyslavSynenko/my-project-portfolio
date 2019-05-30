@@ -221,16 +221,16 @@ main .contact-me form textarea {
     background-color: rgba(192, 192, 192, .5);
 }
 
-main .contact-me .form-container form input:focus,
-main .contact-me .form-container form textarea:focus {
+main .contact-me form input:focus,
+main .contact-me  form textarea:focus {
     background-color: white;
 }
 
-main .contact-me .form-container form textarea {
+main .contact-me form textarea {
     min-height: 120px; 
 }
 
-main .contact-me .form-container form input[type="submit"] {
+main .contact-me form input[type="submit"] {
     font-weight: bold;
     text-transform: uppercase;
     color: white;
@@ -241,7 +241,7 @@ main .contact-me .form-container form input[type="submit"] {
     margin-top: 25px;
 }
 
-main .contact-me .form-container form input[type="submit"]:hover {
+main .contact-me form input[type="submit"]:hover {
     color: black;
     cursor: pointer;
     background-color: white;
@@ -249,26 +249,27 @@ main .contact-me .form-container form input[type="submit"]:hover {
 
 footer {
     position: relative;
-    background-color: grey;
+    background-color: black;
 }
 
-footer .logo h2 {
+footer .footer-logo h2 {
     font-family: 'Berkshire Swash', cursive;
     font-size: 35px;
     color: #c0c0c0;
     margin: 0;
-    margin-left: 20px;
     padding-top: 70px;
+    text-align: center;
 }
 
-footer .logo p {
+footer .footer-logo p {
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     color: #c0c0c0;
-    text-align: right;
-    margin: -2px 5% 0 5%;
-    border-bottom: 1px solid #c0c0c0;
+    text-align: center;
+    margin-top: -2px;
+    margin-bottom: 0;
 }
+
 
 footer .links a.arrow-up {
     position: absolute;
@@ -278,13 +279,35 @@ footer .links a.arrow-up {
 
 footer .links h2 {
     font-family: 'Lato', sans-serif;
-    text-align: center;
     color: #c0c0c0;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 footer .links .social-links {
     display: flex;
     justify-content: space-around;
+}
+
+footer .contacts h2 {
+    font-family: 'Lato', sans-serif;
+    color: #c0c0c0;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+footer .contacts p {
+    font-family: 'Lato', sans-serif;
+    color: #c0c0c0;
+    text-align: center;
+}
+
+footer .contacts .copyright {
+    color: #232323;
 }
 
 @media (min-width: 500px) {
@@ -411,7 +434,7 @@ footer .links .social-links {
         width: 33%;
     }
     
-    main .contact-me .form-container form {
+    main .contact-me form {
         margin-left: 50%;
     }
     
