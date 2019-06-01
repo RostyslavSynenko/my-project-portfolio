@@ -96,6 +96,7 @@ main .about-me h2 {
 
 main .about-me hr {
     width: 96%;
+    border-color: black;
 }
 
 main .about-me img {
@@ -128,6 +129,7 @@ main .my-projects h2 {
 
 main .my-projects hr {
     width: 96%;
+    border-color: black;
 }
 
 main .my-projects h3 {
@@ -182,6 +184,7 @@ main .contact-me h2 {
 
 main .contact-me hr {
     width: 96%;
+    border-color: #c0c0c0;
 }
 
 main .contact-me {
@@ -302,12 +305,15 @@ footer .contacts h2 {
 
 footer .contacts p {
     font-family: 'Lato', sans-serif;
+    font-size: 14px;
     color: #c0c0c0;
     text-align: center;
 }
 
 footer .contacts .copyright {
     color: #232323;
+    font-size: 12px;
+    padding-bottom: 5px;
 }
 
 @media (min-width: 500px) {
