@@ -4,9 +4,14 @@
     scroll-behavior: smooth;
 }
 
+html {
+    background-color: #a6a6a6;
+}
+
 body {
     max-width: 980px;
     margin: auto;
+    box-shadow: 0 0 25px 10px black;
 }
 
 .buttons {
@@ -84,7 +89,7 @@ main .start-page .down-button {
 }
 
 main .about-me {
-    background-color: rgba(52, 44, 44, .1);
+    background-color: #e6e6e6;
 }
 
 main .about-me h2 {
@@ -119,6 +124,10 @@ main .about-me div h3 {
     margin-bottom: 0;
     margin-top: 45px;
     text-align: center;
+}
+
+main .my-projects {
+    background-color: white;
 }
 
 main .my-projects h2 {
@@ -486,4 +495,3 @@ footer .contacts .copyright {
         top: -13px;
     }
 }
-
