@@ -116,7 +116,8 @@ main .about-me div .contact-details {
     font-family: 'Lato', sans-serif;
     text-align: center;
     line-height: 1.5;
-    padding: 0 15px;
+    padding: 0 20px 10px 20px;
+    margin: 0;
 }
 
 main .about-me div h3 {
@@ -165,6 +166,10 @@ main .my-projects figure a img {
 main .my-projects figure figcaption {
     font-family: 'Lato', sans-serif;
     text-align: center;
+}
+
+main .my-projects .arrow-buttons {
+    height: 1px;
 }
 
 main .my-projects .arrow-buttons .arrow-left {
