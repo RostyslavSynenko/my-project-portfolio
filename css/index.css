@@ -100,8 +100,8 @@ main .about-me hr {
 }
 
 main .about-me img {
+    width: 65%;
     display: block;
-    width: 60%;
     margin: 0 auto;
     margin-bottom: 20px;
 }
@@ -111,6 +111,7 @@ main .about-me div .contact-details {
     font-family: 'Lato', sans-serif;
     text-align: center;
     line-height: 1.5;
+    padding: 0 15px;
 }
 
 main .about-me div h3 {
@@ -344,8 +345,15 @@ footer .contacts .copyright {
         font-size: 35px;
     }
     
-    main .about-me p {
-        margin: 0 10%;
+    main .about-me .container-photo-about {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    main .about-me .container-photo-about img {
+        margin: 0 10px 10px 10px;
+        max-width: 250px;
+        height: 50%;
     }
     
     main .my-projects .projects-examples {
@@ -372,6 +380,10 @@ footer .contacts .copyright {
         background-color: rgba(255, 255, 255, .3);
         border-radius: 15px;
         top: 55%;
+    }
+    
+    footer .links a.arrow-up {
+        left: 47%;
     }
 }
 
@@ -406,23 +418,23 @@ footer .contacts .copyright {
         margin-bottom: 20%;
     }
     
-    main .about-me .container-photo-about {
+    main .about-me div .container-briefly-about {
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
     }
     
-    main .about-me .container-photo-about img {
-        margin: 0 10px 10px 10px;
-        width: 50%;
-        height: 50%;
+    main .about-me div .briefly-about-me, 
+    main .about-me div .contact-details {
+        padding: 0;
     }
     
-    main .about-me .container-photo-about div .briefly-about-me {
-        font-size: 20px;
+    main .about-me div .briefly-about-me {
+        padding: 0 20%;
     }
     
-    main .about-me .container-photo-about div h3 {
-        margin-top: 60%;
+    main .about-me div .container-briefly-about div h3 {
+        margin: 0;
     }
     
     main .my-projects h3 {
@@ -467,6 +479,11 @@ footer .contacts .copyright {
     
     footer .contacts p {
         margin: 5px;
+    }
+    
+    footer .links a.arrow-up {
+        left: 48%;
+        top: -13px;
     }
 }
 
