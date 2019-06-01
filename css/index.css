@@ -402,6 +402,12 @@ footer .contacts .copyright {
 }
 
 @media (min-width: 750px) {
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+    
     header .logo {
         margin-left: 5%;
     }
@@ -413,18 +419,16 @@ footer .contacts .copyright {
     
     header .logo p {
         text-align: left;
-        padding-left: 90px;
+        padding-left: 80px;
         margin: 0;
     }
     
     header nav ul {
         justify-content: flex-end;
-        margin-right: 20px;
-        margin-top: 20px;
     }
     
     header nav ul li {
-        margin-left: 5%;
+        margin-left: 0;
     }
     
     main .start-page h2 {
