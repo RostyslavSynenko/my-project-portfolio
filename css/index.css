@@ -75,8 +75,8 @@ main .start-page {
 
 main .start-page h2 {
     font-family: 'Annie Use Your Telescope', cursive;
-    font-weight: bold;
     font-size: 28px;
+    text-shadow: 1px 1px 2px black;
     margin-top: 20%;
     margin-bottom: 10%;
     background-color: rgba(255, 255, 255, .3);
@@ -356,7 +356,7 @@ footer .contacts .copyright {
     }
     
     main .start-page h2 {
-        font-size: 35px;
+        font-size: 45px;
     }
     
     main .about-me .container-photo-about {
@@ -428,7 +428,7 @@ footer .contacts .copyright {
     }
     
     main .start-page h2 {
-        font-size: 60px;
+        font-size: 70px;
         margin-bottom: 20%;
     }
     
