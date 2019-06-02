@@ -11,7 +11,6 @@ html {
 body {
     max-width: 980px;
     margin: auto;
-    box-shadow: 0 0 25px 10px black;
 }
 
 .buttons {
@@ -402,6 +401,10 @@ footer .contacts .copyright {
 }
 
 @media (min-width: 750px) {
+    body {
+        box-shadow: 0 0 25px 10px black;
+    }
+    
     header {
         display: flex;
         justify-content: space-around;
