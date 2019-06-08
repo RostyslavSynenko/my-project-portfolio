@@ -164,6 +164,7 @@ main .my-projects figure figcaption {
 }
 
 main .my-projects .arrow-buttons {
+    display: none;
     height: 1px;
 }
 
