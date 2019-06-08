@@ -9,12 +9,8 @@ body {
     margin: auto;
 }
 
-.buttons {
-    width: 50px; 
-    height: 50px;
-}
-
 header {
+    position: relative;
     background-color: black;
 }
 
@@ -304,6 +300,10 @@ footer .links .social-links {
     justify-content: space-around;
 }
 
+footer .links .social-links img {
+    height: 30px;
+}
+
 footer .contacts h2 {
     font-family: 'Lato', sans-serif;
     color: #c0c0c0;
@@ -324,6 +324,11 @@ footer .contacts .copyright {
     color: #232323;
     font-size: 12px;
     padding-bottom: 5px;
+}
+
+.buttons {
+    width: 50px; 
+    height: 50px;
 }
 
 @media (min-width: 500px) {
@@ -505,4 +510,41 @@ footer .contacts .copyright {
         left: 48%;
         top: -13px;
     }
+}
+
+.cover-div {
+    position: fixed; 
+    right: 0; 
+    top: 0;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 320px; 
+    height: 160px; 
+    opacity: 1;
+    z-index: 10;
+    background: white;
+}
+
+.clock {
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    color: white;
+}
+
+main .about-me .container-briefly-about button {
+    color: white;
+    background-color: rgb(96, 96, 96);
+    border-radius: 15px;
+    width: 200px;
+    padding: 8px 5px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+main .about-me .container-briefly-about button:hover {
+    color: black;
+    cursor: pointer;
+    background-color: rgba(96, 96, 96, 0.2);
 }
