@@ -464,13 +464,12 @@ footer .contacts .copyright {
     
     main .my-projects .projects-examples {
         display: flex;
-        flex-wrap: nowrap;
         justify-content: space-around;
     }
     
     
     main .my-projects .projects-examples figure {
-        width: 33%;
+        width: 30%;
     }
     
     main .contact-me form {
