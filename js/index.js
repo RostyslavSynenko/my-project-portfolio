@@ -41,7 +41,7 @@ function createCover(user) {
   const img = document.createElement('img');
   img.src = user.avatar_url;
   img.alt = 'GitHub avatar';
-  img.style = 'height: 95%; margin: 5px;';
+  img.style = 'height: 85%; margin: 5px;';
   coverDiv.appendChild(img);
 
   const parag = document.createElement('p');
