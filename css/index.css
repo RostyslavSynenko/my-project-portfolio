@@ -526,6 +526,11 @@ footer .contacts .copyright {
     background: white;
 }
 
+.github-avatar {
+    height: 85%;
+    margin: 5px;
+}
+
 .clock {
     position: absolute; 
     top: 0; 
