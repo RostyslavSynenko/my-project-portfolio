@@ -4,27 +4,22 @@
   document.querySelector('.show-github-info')
     .addEventListener('click', fetchGet);
   
-  function fetchGet() {
-    fetch('my-data.json')
-      .then(response => {
-        return response.json();
-      })
-      .then(user => {
-        return fetch(`https://api.github.com/users/${user.name}`);
-      })
-      .then(response => {
-        return response.json();
-      })
-      .then(githubUser => {
-        createCover(githubUser);
-    
-        setTimeout(() => {
-            document.body.removeChild(document.querySelector('.cover-div')); 
-        }, 3000);
-      })
-      .catch(error => {
-          console.error('ERROR', error);
-      });
+  async function fetchGet() {
+    try {
+      const response = await fetch('my-data.json');
+      const userName = await response.json();
+
+      const githubResponse = await fetch(`https://api.github.com/users/${user.name}`);
+      const githubUser = await githubResponse.json();
+
+      createCover(githubUser);
+
+      setTimeout(() => {
+          document.body.removeChild(document.querySelector('.cover-div')); 
+      }, 3000);
+    } catch(error) {
+        console.error('ERROR', error);
+    }
   }
   
   function createCover(user) {
