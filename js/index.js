@@ -54,4 +54,35 @@
   clock.className = 'clock';
   document.querySelector('header').appendChild(clock);
   setInterval( () => clock.innerText = (new Date().toLocaleTimeString()), 1000);
+  
+  /*
+   * Carousel code(for my projects)
+   *
+   
+  let imgs = document.querySelectorAll('img');
+  const count = 3;
+  const imgWidth = 130;
+  let position = 0;
+
+  const onClick = event => {
+    let target = event.target;
+    let ul = document.querySelector('ul');
+
+    if (target.classList.contains('next')) {
+      position += -count * imgWidth;
+
+      position = Math.max(position, -imgWidth * (imgs.length - count));
+      ul.style.transform = `translateX(${position}px)`;
+    }
+
+    if (target.classList.contains('prev')) {
+      position += count * imgWidth;
+      position = Math.min(position, 0);
+
+      ul.style.transform = `translateX(${position}px)`;
+    }
+  };
+
+  document.getElementById('carousel').addEventListener('click', onClick);
+  */
 }
