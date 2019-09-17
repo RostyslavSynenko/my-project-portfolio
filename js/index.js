@@ -11,7 +11,7 @@
       const userName = await response.json();
 
       const githubResponse = await fetch(
-        `https://api.github.com/users/${user.name}`
+        `https://api.github.com/users/${userName.name}`
       );
       const githubUser = await githubResponse.json();
 
