@@ -1,556 +1,554 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Annie+Use+Your+Telescope|Lato&display=swap');
 
 :root {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    max-width: 980px;
-    margin: auto;
+  max-width: 980px;
+  margin: auto;
 }
 
 header {
-    position: relative;
-    background-color: black;
+  position: relative;
+  background-color: black;
+}
+
+header .logo {
+  margin-bottom: 20px;
 }
 
 header .logo h1 {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 55px;
-    color: #c0c0c0;
-    text-align: center;
-    margin: 0;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 55px;
+  color: #c0c0c0;
+  text-align: center;
 }
 
 header p {
-    font-family: 'Lato', sans-serif;
-    color: #c0c0c0;
-    text-align: center;
-    margin-bottom: 50px;
+  font-family: 'Lato', sans-serif;
+  color: #c0c0c0;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 header nav ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 header nav ul li {
-    text-align: center;
-    padding: 5px 0 5px 0;
+  text-align: center;
+  padding: 5px 0 5px 0;
 }
 header nav ul li {
-    border-bottom: 1px solid #232323;
+  border-bottom: 1px solid #232323;
 }
 
 header nav ul li:hover {
-    background-color: rgba(255, 255, 255, .2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 header nav ul li a {
-    font-family: 'Lato', sans-serif;
-    color: #c0c0c0;
-    text-decoration: none;
-    text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  color: #c0c0c0;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 main .start-page {
-    background-image: url(../img/start-page-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-image: url('../img/start-page-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 main .start-page h2 {
-    font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 28px;
-    text-shadow: 1px 1px 2px black;
-    margin-top: 20%;
-    margin-bottom: 10%;
-    background-color: rgba(255, 255, 255, .3);
-    padding: 0 5px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 28px;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 0 5px;
 }
 
 main .start-page .down-button {
-    align-self: flex-end;
-    
+  align-self: flex-end;
 }
 
 main .about-me {
-    background-color: #e6e6e6;
+  background-color: #e6e6e6;
 }
 
 main .about-me h2 {
-    font-family: 'Lato', sans-serif;
-    margin: 0 0 0 10px;
-    padding-top: 10px;
-    
+  font-family: 'Lato', sans-serif;
+  margin: 0 0 0 10px;
+  padding-top: 10px;
 }
 
 main .about-me hr {
-    width: 96%;
-    border-color: black;
+  width: 96%;
+  border-color: black;
 }
 
 main .about-me img {
-    width: 65%;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 main .about-me div .briefly-about-me,
 main .about-me div .contact-details {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    line-height: 1.5;
-    padding: 0 20px 10px 20px;
-    margin: 0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  padding: 0 20px 10px 20px;
+  margin: 0;
 }
 
 main .about-me div h3 {
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 0;
-    margin-top: 45px;
-    text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0;
+  margin-top: 45px;
+  text-align: center;
 }
 
 main .my-projects {
-    background-color: white;
+  background-color: white;
 }
 
 main .my-projects h2 {
-    font-family: 'Lato', sans-serif;
-    margin: 0 0 0 10px;
-    padding-top: 10px;
-    
+  font-family: 'Lato', sans-serif;
+  margin: 0 0 0 10px;
+  padding-top: 10px;
 }
 
 main .my-projects hr {
-    width: 96%;
-    border-color: black;
+  width: 96%;
+  border-color: black;
 }
 
 main .my-projects h3 {
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
 
 main .my-projects {
-    position: relative;
+  position: relative;
 }
 
 main .my-projects figure {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 25px;
 }
 
 main .my-projects figure a img {
-    width: 100%;
+  width: 100%;
 }
 
 main .my-projects figure figcaption {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
 main .my-projects .arrow-buttons {
-    display: none;
-    height: 1px;
+  display: none;
+  height: 1px;
 }
 
 main .my-projects .arrow-buttons .arrow-left {
-    position: absolute;
-    top: 17%;
-    background-color: rgba(255, 255, 255, .3);
-    border-radius: 15px;
-    padding: 5px 0;
+  position: absolute;
+  top: 17%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 5px 0;
 }
 
 main .my-projects .arrow-buttons .arrow-right {
-    position: absolute;
-    top: 17%;
-    right: 0;
-    background-color: rgba(255, 255, 255, .3);
-    border-radius: 15px;
-    padding: 5px 0;
+  position: absolute;
+  top: 17%;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 5px 0;
 }
 
 main .contact-me h2 {
-    font-family: 'Lato', sans-serif;
-    margin: 0 0 0 10px;
-    padding-top: 10px;   
-    color: #c0c0c0;
+  font-family: 'Lato', sans-serif;
+  margin: 0 0 0 10px;
+  padding-top: 10px;
+  color: #c0c0c0;
 }
 
 main .contact-me hr {
-    width: 96%;
-    border-color: #c0c0c0;
+  width: 96%;
+  border-color: #c0c0c0;
 }
 
 main .contact-me {
-    background-image: url(../img/contact-me.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 550px;
+  background-image: url(../img/contact-me.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
 }
 
 main .contact-me form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 main .contact-me form p {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
-    color: #c0c0c0;
-    text-align: center;
-    padding-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #c0c0c0;
+  text-align: center;
+  padding-top: 10px;
 }
 
 ::placeholder {
-    color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 main .contact-me form input,
 main .contact-me form textarea {
-    font-family: 'Lato', sans-serif;
-    width: 80%;
-    padding: 10px;
-    border-width: 1px;
-    border-radius: 5px;
-    border-color: rgba(224, 224, 224, .5);
-    background-color: rgba(192, 192, 192, .5);
+  font-family: 'Lato', sans-serif;
+  width: 80%;
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgba(224, 224, 224, 0.5);
+  background-color: rgba(192, 192, 192, 0.5);
 }
 
 main .contact-me form input:focus,
-main .contact-me  form textarea:focus {
-    background-color: white;
+main .contact-me form textarea:focus {
+  background-color: white;
 }
 
 main .contact-me form textarea {
-    min-height: 120px; 
+  min-height: 120px;
 }
 
-main .contact-me form input[type="submit"] {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    background-color: rgb(96, 96, 96);
-    border-radius: 15px;
-    width: 200px;
-    padding: 8px 5px;
-    margin-top: 25px;
+main .contact-me form input[type='submit'] {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(96, 96, 96);
+  border-radius: 15px;
+  width: 200px;
+  padding: 8px 5px;
+  margin-top: 25px;
 }
 
-main .contact-me form input[type="submit"]:hover {
-    color: black;
-    cursor: pointer;
-    background-color: white;
+main .contact-me form input[type='submit']:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
 }
 
 footer {
-    position: relative;
-    background-color: black;
+  position: relative;
+  background-color: black;
 }
 
 footer .footer-logo h2 {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 35px;
-    color: #c0c0c0;
-    margin: 0;
-    padding-top: 70px;
-    text-align: center;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 35px;
+  color: #c0c0c0;
+  margin: 0;
+  padding-top: 70px;
+  text-align: center;
 }
 
 footer .footer-logo p {
-    font-size: 12px;
-    font-family: 'Lato', sans-serif;
-    color: #c0c0c0;
-    text-align: center;
-    margin-top: -2px;
-    margin-bottom: 0;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: #c0c0c0;
+  text-align: center;
+  margin-top: -2px;
+  margin-bottom: 0;
 }
 
-
 footer .links a.arrow-up {
-    position: absolute;
-    left: 45%;
-    top: 0;
+  position: absolute;
+  left: 45%;
+  top: 0;
 }
 
 footer .links h2 {
-    font-family: 'Lato', sans-serif;
-    color: #c0c0c0;
-    font-size: 14px;
-    padding-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #c0c0c0;
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 footer .links .social-links {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 footer .links .social-links img {
-    height: 30px;
+  height: 30px;
 }
 
 footer .contacts h2 {
-    font-family: 'Lato', sans-serif;
-    color: #c0c0c0;
-    font-size: 14px;
-    padding-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+  font-family: 'Lato', sans-serif;
+  color: #c0c0c0;
+  font-size: 14px;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 footer .contacts p {
-    font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    color: #c0c0c0;
-    text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #c0c0c0;
+  text-align: center;
 }
 
 footer .contacts .copyright {
-    color: #232323;
-    font-size: 12px;
-    padding-bottom: 5px;
-    margin-bottom: 0;
+  color: #232323;
+  font-size: 12px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .buttons {
-    width: 50px; 
-    height: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 @media (min-width: 500px) {
-    header .logo h1 {
-        text-align: left;
-        margin-left: 25%;
-    }
-    
-    .logo p {
-        text-align: right;
-        margin-top: 0;
-        margin-right: 30%;
-    }
-    
-    header nav ul {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    header nav ul li {
-        border: 1px solid #232323;
-        border-bottom: none;
-        border-top: none;
-        padding: 5px;
-    }
-    
-    main .start-page h2 {
-        font-size: 45px;
-    }
-    
-    main .about-me .container-photo-about {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    main .about-me .container-photo-about img {
-        margin: 0 10px 10px 10px;
-        max-width: 250px;
-        height: 50%;
-    }
-    
-    main .my-projects .projects-examples {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    main .my-projects .projects-examples figure {
-        width: 45%;
-    }
-    
-    main .my-projects .projects-examples figure figcaption {
-        font-size: 14px;
-    }
-    
-    main .my-projects .arrow-buttons .arrow-left {
-        background-color: rgba(255, 255, 255, .3);
-        border-radius: 15px;
-        top: 55%;
-    }
-    
-    main .my-projects .arrow-buttons .arrow-right {
-        background-color: rgba(255, 255, 255, .3);
-        border-radius: 15px;
-        top: 55%;
-    }
-    
-    footer .links a.arrow-up {
-        left: 47%;
-    }
+  header .logo h1 {
+    text-align: left;
+    margin-left: 25%;
+  }
+
+  .logo p {
+    text-align: right;
+    margin-top: 0;
+    margin-right: 30%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header nav ul li {
+    border: 1px solid #232323;
+    border-bottom: none;
+    border-top: none;
+    padding: 5px;
+  }
+
+  main .start-page h2 {
+    font-size: 45px;
+  }
+
+  main .about-me .container-photo-about {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main .about-me .container-photo-about img {
+    margin: 0 10px 10px 10px;
+    max-width: 250px;
+    height: 50%;
+  }
+
+  main .my-projects .projects-examples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  main .my-projects .projects-examples figure {
+    width: 45%;
+  }
+
+  main .my-projects .projects-examples figure figcaption {
+    font-size: 14px;
+  }
+
+  main .my-projects .arrow-buttons .arrow-left {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    top: 55%;
+  }
+
+  main .my-projects .arrow-buttons .arrow-right {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    top: 55%;
+  }
+
+  footer .links a.arrow-up {
+    left: 47%;
+  }
 }
 
 @media (min-width: 750px) {
-    html {
-        background-color: #a6a6a6;
-    }
+  html {
+    background-color: #a6a6a6;
+  }
 
-    body {
-        box-shadow: 0 0 25px 10px black;
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-around;
-        align-items: flex-end;
-    }
-    
-    header .logo {
-        margin-left: 5%;
-    }
-    
-    header .logo h1 {
-        text-align: left;
-        margin: 0;
-    }
-    
-    header .logo p {
-        text-align: left;
-        padding-left: 80px;
-        margin: 0;
-    }
-    
-    header nav ul {
-        justify-content: flex-end;
-    }
-    
-    header nav ul li {
-        margin-left: 0;
-    }
-    
-    main .start-page h2 {
-        font-size: 70px;
-        margin-bottom: 20%;
-    }
-    
-    main .about-me div .container-briefly-about {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    
-    main .about-me div .briefly-about-me, 
-    main .about-me div .contact-details {
-        padding: 0;
-    }
-    
-    main .about-me div .briefly-about-me {
-        padding: 0 20%;
-    }
-    
-    main .about-me div .container-briefly-about div h3 {
-        margin: 0;
-    }
-    
-    main .my-projects h3 {
-        font-size: 18px;
-    }
-    
-    main .my-projects .projects-examples {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    
-    main .my-projects .projects-examples figure {
-        width: 30%;
-    }
-    
-    main .contact-me form {
-        margin-left: 50%;
-    }
-    
-    footer {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    footer .footer-logo h2 {
-        padding: 0;
-    }
-    
-    footer .links {
-        padding: 0 10px;
-        border-left: 1px solid #232323;
-        border-right: 1px solid #232323;
-    }
-    
-    footer .footer-logo,
-    footer section {
-        flex: 1;
-    }
-    
-    footer .contacts p {
-        margin: 5px;
-    }
-    
-    footer .links a.arrow-up {
-        left: 48%;
-        top: -13px;
-    }
+  body {
+    box-shadow: 0 0 25px 10px black;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+  }
+
+  header .logo {
+    margin-left: 5%;
+  }
+
+  header .logo h1 {
+    text-align: left;
+    margin: 0;
+  }
+
+  header .logo p {
+    text-align: left;
+    padding-left: 80px;
+    margin: 0;
+  }
+
+  header nav ul {
+    justify-content: flex-end;
+  }
+
+  header nav ul li {
+    margin-left: 0;
+  }
+
+  main .start-page h2 {
+    font-size: 70px;
+    margin-bottom: 20%;
+  }
+
+  main .about-me div .container-briefly-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  main .about-me div .briefly-about-me,
+  main .about-me div .contact-details {
+    padding: 0;
+  }
+
+  main .about-me div .briefly-about-me {
+    padding: 0 20%;
+  }
+
+  main .about-me div .container-briefly-about div h3 {
+    margin: 0;
+  }
+
+  main .my-projects h3 {
+    font-size: 18px;
+  }
+
+  main .my-projects .projects-examples {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  main .my-projects .projects-examples figure {
+    width: 30%;
+  }
+
+  main .contact-me form {
+    margin-left: 50%;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .footer-logo h2 {
+    padding: 0;
+  }
+
+  footer .links {
+    padding: 0 10px;
+    border-left: 1px solid #232323;
+    border-right: 1px solid #232323;
+  }
+
+  footer .footer-logo,
+  footer section {
+    flex: 1;
+  }
+
+  footer .contacts p {
+    margin: 5px;
+  }
+
+  footer .links a.arrow-up {
+    left: 48%;
+    top: -13px;
+  }
 }
 
 .cover-div {
-    position: fixed; 
-    right: 0; 
-    top: 0;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    width: 320px; 
-    height: 160px; 
-    opacity: 1;
-    z-index: 10;
-    background: white;
+  position: fixed;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 160px;
+  opacity: 1;
+  z-index: 10;
+  background: white;
 }
 
 .github-avatar {
-    height: 85%;
-    margin: 5px;
+  height: 85%;
+  margin: 5px;
 }
 
 .clock {
-    position: absolute; 
-    top: 0; 
-    right: 0; 
-    color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
 }
 
 main .about-me .container-briefly-about button {
-    color: white;
-    background-color: rgb(96, 96, 96);
-    border-radius: 15px;
-    width: 200px;
-    padding: 8px 5px;
-    margin-top: 25px;
-    border: 1px solid black;
+  color: white;
+  background-color: rgb(96, 96, 96);
+  border-radius: 15px;
+  width: 200px;
+  padding: 8px 5px;
+  margin-top: 25px;
+  border: 1px solid black;
 }
 
 main .about-me .container-briefly-about button:hover {
-    color: black;
-    cursor: pointer;
-    background-color: rgba(96, 96, 96, 0.2);
+  color: black;
+  cursor: pointer;
+  background-color: rgba(96, 96, 96, 0.2);
 }

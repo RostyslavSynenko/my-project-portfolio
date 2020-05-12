@@ -1,125 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>RS Portfolio</title>
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
     <header id="header">
-        <div class="logo">
-            <h1>RSynenko</h1>
-            <p>Leader in site creation</p>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#my-projects">My projects</a></li>
-                <li><a href="#contact-me">Contact me</a></li>
-                <li><a href="#links">Links</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <h1>RSynenko</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#my-projects">My projects</a></li>
+          <li><a href="#contact-me">Contact me</a></li>
+          <li><a href="#links">Links</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="start-page">
-            <h2>Make your dreams come true</h2>
-            <a href="#about-me"><img class="buttons down-button" src="img/down.svg" alt="button-down"></a>
-        </section>
-        <section id="about-me" class="about-me">
-            <h2>About me</h2>
-            <hr>
-            <div class="container-photo-about">
-                <img src="img/my-photo.jpg" alt="Rostyslav Synenko's photo">
-                <div class="container-briefly-about">
-                    <p class="briefly-about-me">
-                        Let me introduce myself. My name is Rostyslav. I am twenty-six. 
-                        I am a self-employed entrepreneur. Also I am a prospective front-end developer. 
-                        I creating awesome and effective websites for companies 
-                        of all sizes around the globe.<br>
-                        <button class="show-github-info">GitHub Info</button>
-                    </p>
-                    <div>
-                        <h3>Contact Details</h3>
-                        <p class="contact-details">
-                            Address: Lviv, Lviv Oblast, Ukraine, 7900<br>
-                            Phone: +380967146518<br>
-                            Email: rostyslav.synenko@gmail.com
-                        </p>
-                    </div>
-                </div>
+      <section class="start-page">
+        <h2>Make your dreams come true</h2>
+        <a href="#about-me"
+          ><img
+            class="buttons down-button"
+            src="img/down.svg"
+            alt="button-down"
+        /></a>
+      </section>
+      <section id="about-me" class="about-me">
+        <h2>About me</h2>
+        <hr />
+        <div class="container-photo-about">
+          <img src="img/my-photo.jpg" alt="Rostyslav Synenko's photo" />
+          <div class="container-briefly-about">
+            <p class="briefly-about-me">
+              Let me introduce myself. My name is Rostyslav. I am twenty-six. I
+              am a self-employed entrepreneur. Also I am a prospective front-end
+              developer. I creating awesome and effective websites for companies
+              of all sizes around the globe.<br />
+              <button class="show-github-info">GitHub Info</button>
+            </p>
+            <div>
+              <h3>Contact Details</h3>
+              <p class="contact-details">
+                Address: Lviv, Lviv Oblast, Ukraine, 7900<br />
+                Phone: +380967146518<br />
+                Email: rostyslav.synenko@gmail.com
+              </p>
             </div>
-        </section>
-        <section id="my-projects" class="my-projects">
-            <h2>My projects</h2>
-            <hr>
-            <h3>CHECK OUT SOME OF MY WORKS.</h3>
-            <div class="projects-examples">
-                <figure>
-                    <a href="https://www.spacex.com/" target="_blank"><img src="img/spacex-projects.jpg" alt="SpaceX"></a>
-                    <figcaption><b>Space Exploration Technologies Corp.</b><br>
-                    doing business as SpaceX, is a private American aerospace manufacturer and space transportation services 
-                    company headquartered in Hawthorne, California.</figcaption>
-                </figure>
-                <figure>
-                    <a href="https://www.tesla.com/" target="_blank"><img src="img/tesla-projects.png" alt="Tesla Motors"></a>
-                    <figcaption><b>Tesla, Inc. (formerly Tesla Motors, Inc.)</b><br>
-                    is an American automotive and energy company based in Palo Alto, California. The company specializes in electric 
-                    car manufacturing and, through its SolarCity subsidiary, solar panel manufacturing.</figcaption>
-                </figure>
-                <figure>
-                    <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook-projects.jpg" alt="Facebook"></a>
-                    <figcaption><b>Facebook.com</b><br>
-                    is an American online social media and social networking service 
-                    company based in Menlo Park, California. </figcaption>
-                </figure>
-            </div>
-            <div class="arrow-buttons">
-                <a href=""><img class="buttons arrow-left" src="img/left.svg" alt="Arrow left"></a>
-                <a href=""><img class="buttons arrow-right" src="img/right.svg" alt="Arrow right"></a>
-            </div>
-        </section>
-        <section id="contact-me" class="contact-me">
-            <h2>Contact me</h2>
-            <hr>
-            <form method="GET" action="https://formspree.io/rostyslav.synenko@gmail.com">
-                <p>Tell me your story. . .</p>
-                <input type="text" name='first-name' placeholder="Name*" required><br>
-                <input type="email" name="email" placeholder="Email*" required><br>
-                <input type="tel" name="phone" placeholder="Phone"><br>
-                <textarea name="message" placeholder="Your message here..."></textarea><br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
+          </div>
+        </div>
+      </section>
+      <section id="my-projects" class="my-projects">
+        <h2>My projects</h2>
+        <hr />
+        <h3>CHECK OUT SOME OF MY WORKS.</h3>
+        <div class="projects-examples">
+          <figure>
+            <a href="https://www.spacex.com/" target="_blank"
+              ><img src="img/spacex-projects.jpg" alt="SpaceX"
+            /></a>
+            <figcaption>
+              <b>Space Exploration Technologies Corp.</b><br />
+              doing business as SpaceX, is a private American aerospace
+              manufacturer and space transportation services company
+              headquartered in Hawthorne, California.
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="https://www.tesla.com/" target="_blank"
+              ><img src="img/tesla-projects.png" alt="Tesla Motors"
+            /></a>
+            <figcaption>
+              <b>Tesla, Inc. (formerly Tesla Motors, Inc.)</b><br />
+              is an American automotive and energy company based in Palo Alto,
+              California. The company specializes in electric car manufacturing
+              and, through its SolarCity subsidiary, solar panel manufacturing.
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="img/facebook-projects.jpg" alt="Facebook"
+            /></a>
+            <figcaption>
+              <b>Facebook.com</b><br />
+              is an American online social media and social networking service
+              company based in Menlo Park, California.
+            </figcaption>
+          </figure>
+        </div>
+        <div class="arrow-buttons">
+          <a href=""
+            ><img
+              class="buttons arrow-left"
+              src="img/left.svg"
+              alt="Arrow left"
+          /></a>
+          <a href=""
+            ><img
+              class="buttons arrow-right"
+              src="img/right.svg"
+              alt="Arrow right"
+          /></a>
+        </div>
+      </section>
+      <section id="contact-me" class="contact-me">
+        <h2>Contact me</h2>
+        <hr />
+        <form
+          method="GET"
+          action="https://formspree.io/rostyslav.synenko@gmail.com"
+        >
+          <p>Tell me your story. . .</p>
+          <input
+            type="text"
+            name="first-name"
+            placeholder="Name*"
+            required
+          /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email*"
+            required
+          /><br />
+          <input type="tel" name="phone" placeholder="Phone" /><br />
+          <textarea name="message" placeholder="Your message here..."></textarea
+          ><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
     </main>
     <footer>
-        <div class="footer-logo">
-            <h2>RSynenko</h2>
-            <p>Leader in site creation</p>
+      <div class="footer-logo">
+        <h2>RSynenko</h2>
+      </div>
+      <section id="links" class="links">
+        <a class="arrow-up" href="#header"
+          ><img class="buttons" src="img/up.svg" alt="Up"
+        /></a>
+        <h2>Links:</h2>
+        <div class="social-links">
+          <a href="https://www.facebook.com/rostyslav.synenko" target="_blank"
+            ><img src="img/facebook.svg" alt="Facebook"
+          /></a>
+          <a href="https://github.com/RostyslavSynenko" target="_blank"
+            ><img src="img/github.svg" alt="GitHub"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/rostyslav-synenko/"
+            target="_blank"
+            ><img src="img/linkedin.svg" alt="LinkedIn"
+          /></a>
+          <a href="" target="_blank"><img src="img/skype.svg" alt="Skype" /></a>
+          <a href="https://www.instagram.com/rsynenko/" target="_blank"
+            ><img src="img/instagram.svg" alt="Instagram"
+          /></a>
         </div>
-        <section id="links" class="links">
-            <a class="arrow-up" href="#header"><img class="buttons" src="img/up.svg" alt="Up"></a>
-            <h2>Links:</h2>
-            <div class="social-links">
-                <a href="https://www.facebook.com/rostyslav.synenko" target="_blank"><img src="img/facebook.svg" alt="Facebook"></a>
-                <a href="https://github.com/RostyslavSynenko" target="_blank"><img src="img/github.svg" alt="GitHub"></a>
-                <a href="https://www.linkedin.com/in/rostyslav-synenko/" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"></a>
-                <a href="" target="_blank"><img src="img/skype.svg" alt="Skype"></a>
-                <a href="https://www.instagram.com/rsynenko/" target="_blank"><img src="img/instagram.svg" alt="Instagram"></a>
-            </div>
-        </section>
-        <section class="contacts">
-            <h2>Contacts:</h2>
-            <p><b>Address:</b> Lviv, Lviv Oblast, Ukraine, 7900</p>
-            <p><b>Phone:</b> +380967146518</p>
-            <p><b>Email:</b> rostyslav.synenko@gmail.com</p>
-            <p class="copyright">© Rostyslav Synenko, 2019</p>
-        </section>
+      </section>
+      <section class="contacts">
+        <h2>Contacts:</h2>
+        <p><b>Address:</b> Lviv, Lviv Oblast, Ukraine, 7900</p>
+        <p><b>Phone:</b> +380967146518</p>
+        <p><b>Email:</b> rostyslav.synenko@gmail.com</p>
+        <p class="copyright">© Rostyslav Synenko, 2019</p>
+      </section>
     </footer>
-    
+
     <script src="js/index.js"></script>
-</body>
+  </body>
 </html>
